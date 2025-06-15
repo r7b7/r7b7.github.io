@@ -173,12 +173,13 @@ nav {
     margin-bottom: 10px;
     font-family: zilla-slab-regular;
 }
+
 /* Stickey header */
 .sticky-header {
     position: sticky;
     top: 0;
     background-color: #000000;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
 
@@ -188,6 +189,7 @@ nav {
     align-items: center;
     padding: 10px 20px;
 }
+
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -209,6 +211,43 @@ nav ul li a {
 nav ul li a:hover {
     color: #007bff;
 }
+
+/*faq styles*/
+#faq {
+    text-align: center;
+    padding: 80px 0;
+    font-family: zilla-slab-regular;
+}
+
+#faq h1 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: orbitron-8628;
+}
+
+.faq-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    align-items: center;
+}
+
+.faq-text {
+    margin-bottom: 30px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.answer {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
 /* Footer styles */
 footer {
     background-color: #111111;
@@ -234,32 +273,39 @@ footer p {
 
 .social-icons {
     display: flex;
-    justify-content: center;
-    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
+
 .social-icons a {
     color: #ffffff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
+
 .social-icons a:hover {
-    color: #1da1f2; /* Twitter blue */
+    color: #1da1f2;
+    /* Twitter blue */
 }
+
 .social-icons svg {
     width: 24px;
     height: 24px;
 }
+
 .about-content {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
     align-items: center;
 }
+
 .about-text {
     flex: 1 1 500px;
 }
 
-.about-text p{
+.about-text p {
     font-family: zilla-slab-regular;
     font-size: 20px;
 }
@@ -311,4 +357,3 @@ footer p {
         font-size: 18px;
     }
 }
-
